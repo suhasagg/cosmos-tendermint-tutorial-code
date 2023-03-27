@@ -17,9 +17,13 @@ To illustrate this concept numerically, let's consider a simple example:
 Suppose we have a PoS blockchain network with four validators: A, B, C, and D. The total stake in the network is 100 tokens. Ideally, each validator should have an equal share of the total stake (25 tokens each). Now, let's assume the current delegation amounts are:
 
 Validator A: 40 tokens (Overweight)
+
 Validator B: 30 tokens (Overweight)
+
 Validator C: 20 tokens (Underweight)
+
 Validator D: 10 tokens (Underweight)
+
 In this example, validators A and B are overweight, as they have more delegated stake than the ideal amount (25 tokens). Validators C and D are underweight, as they have less delegated stake than the ideal amount.
 
 Rebalancing aims to redistribute the stake more fairly among validators by moving stake from overweight validators to underweight validators. This process helps maintain a more even distribution of stake, promoting a fair distribution of rewards, enhancing security, and supporting decentralization.
