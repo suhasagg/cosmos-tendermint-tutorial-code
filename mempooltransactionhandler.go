@@ -11,7 +11,7 @@ type Transaction struct {
 
 func main() {
     mempool := make(chan Transaction, 10)
-    //wont't wait for transaction processing
+    //won't wait for transaction processing for tx ingestion
 
     // start a goroutine to process transactions
     go func() {
